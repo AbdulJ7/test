@@ -19,6 +19,7 @@ for i in $(find -L $HOME/.local/share/bash-calc -name ".git" | cut -c 1-); do
     # git checkout master;
     git remote prune origin;
     git fetch origin;
+    git stash;
     git pull;
 
     # lets get back to the CUR_DIR
