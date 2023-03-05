@@ -30,7 +30,7 @@ echo -e "\n\033[32mComplete!\033[0m\n"
 }
 
 main() { 
-   htop
+   top
 }
 
 for arg in "$@"; do
